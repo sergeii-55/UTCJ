@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Area Links</title>
+</head>
+<script>
+function recepcion() {alert("AREA DE RECEPCION!!!");}
+function cafe() {alert("AREA DE CAFETERIA!!!");}
+function ventas() {alert("AREA DE VENTAS!!!");}
+function sala() {alert("SALA DE JUNTAS!!!");}
+function codigo() {alert("AREA DE CODIGO Y DISEÑO!!!");}
+function marketing() {alert("SALA DE MARKETING!!!");}
+</script>
+<body>
+    <audio autoplay loop controls>
+    <source src="SampleAudio.mp3" type="audio/mp3"/>
+</audio>
+<img src="office.jpg" title="areas de la empresa" width="1400px" height="700px" usemap="#mapa"/>
+<map name="mapa">  
+    <area shape="poly" coords="27,700,490,500,950,700" title="recepcion" onclick="recepcion();" href=""/>
+    <area shape="poly" coords="0,610,0,290,378,452" title="cafeteria" onclick="cafe();" href=""/>
+    <area shape="poly" coords="115,237,374,152,703,298,374,348" title="sala de ventas" onclick="ventas();" href=""/>
+    <area shape="poly" coords="489,107,704,16,918,108,700,201" title="sala de juntas" onclick="sala();" href=""/>
+    <area shape="poly" coords="840,254,1064,154,1400,315,1400,508" title="area de codigo y diseño" onclick="codigo();" href=""/>
+    <area shape="poly" coords="572,435,778,333,1300,559,1125,700" title="sala de marketing" onclick="marketing();" href=""/>
+    <area shape="circle" coords="100,200,100" href="www.google.com"/>
+    <area shape="rect" coords="250,200,300,350" href="www.google.com"/>
+</map>
+
+
+</body>
+</html>

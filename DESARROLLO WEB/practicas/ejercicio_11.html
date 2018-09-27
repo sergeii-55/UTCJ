@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Formulario</title>
+</head>
+<style>
+    label, input[type="submit"]{
+        display: block;
+        margin: 20px 0;
+    }
+</style>
+<body>
+<form>
+    <label>1. Escoja su genero</label>
+    <select name="opciones">
+        <option value="H">Hombre</option>
+        <option value="M">Mujer</option>
+    </select>
+    <label>2. Escriba un mensaje</label>
+    <textarea name="name" rows="4" cols="80"></textarea>
+    <label for="user">3. Usuario</label>
+    <input type="text" name="user"/>
+    <label for="pass">4. Contrasena</label>
+    <input type="password" name="pass"/>
+    <label>5. presione enviar</label><input type="submit" value="ENVIAR"/>
+    <label>6. Escoja una opcion</label>
+    <input type="radio" name="hola" value="F"/>rojo
+    <input type="radio" name="hola" value="M"/>azul
+    <label>7. Introduzca su direccion</label>
+    <input type="text" name="direccion"/>
+    <label>8. Introduzca su telefono</label>
+    <input type="text" name="tel"/>
+    <label>9. Introduzca su codigo postal</label>
+    <input type="number" name="tel"/>
+    <label>10. Escoja grado de escuela</label>
+    <select name="opciones">
+        <option value="1">primaria</option>
+        <option value="2">preparatoria</option>
+        <option value="3">universidad</option>
+    </select>
+    <label>11. presione para resetear</label><input type="reset" value="RESET"/>
+    <label>12. Escriba otro mensaje</label>
+    <textarea name="name" rows="2" cols="40"></textarea>
+    <label>13. Introduzca campo</label>
+    <input type="text" name="direccion"/>
+    <label>14. Escoja opciones</label>
+    <input type="checkbox" name="c1"/>uno
+    <input type="checkbox" name="c2"/>dos
+    <input type="checkbox" name="c3"/>tres
+    <label>15. Introduzca email</label>
+    <input type="email" name="mail"/>
+    <label>16. escoja color</label>
+    <input type="color" name="mail"/>
+    <label>17. Escoja opcion</label>
+    <select name="opciones">
+        <option value="g">Gato</option>
+        <option value="p">Perro</option>
+        <option value="b">Bufalo</option>
+    </select>
+    <label>18. escoja fecha</label>
+    <input type="date" name="date"/>
+    <label>19. Escriba mas mensajes</label>
+    <textarea name="name" rows="5" cols="120"></textarea>
+    <label>20. presione para enviar todas sus respuestas?</label><input type="submit" value="ENVIAR TODAS LAS RESPUESTAS"/>
+</form>
+
+</body>
+</html>
