@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_on">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="@drawable/ico_back"
+        android:id="@+id/b_reg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="PRENDER"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:background="@color/fadeverde" />
+
+    <RelativeLayout
+        android:layout_width="360dp"
+        android:layout_height="390dp"
+        android:layout_above="@+id/b_reg"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView1">
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dev_coffee"
+            android:id="@+id/image_coffee"
+            android:layout_marginStart="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="buttonPressed2"
+            android:layout_marginTop="15dp"
+            android:elevation="15dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dev_light"
+            android:id="@+id/image_light"
+            android:layout_marginEnd="15dp"
+            android:layout_alignTop="@+id/image_coffee"
+            android:layout_alignParentEnd="true"
+            android:onClick="buttonPressed"
+            android:elevation="15dp" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dev_stove"
+            android:id="@+id/image_stove"
+            android:layout_marginBottom="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/image_coffee" />
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/dev_tv"
+            android:id="@+id/image_tv"
+            android:layout_alignTop="@+id/image_stove"
+            android:layout_alignStart="@+id/image_light" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

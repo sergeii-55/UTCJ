@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back_info">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:background="#0000"
+        android:id="@+id/b_reg"
+        android:src="@drawable/ico_back"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="INFORMACION"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#91a53692"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/utcj"
+        android:src="@drawable/utcj"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <ToggleButton
+        android:text="enable"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:id="@+id/toggleButton"
+        android:layout_below="@+id/utcj"
+        android:layout_centerHorizontal="true"
+        android:textOff="universidad tecnologica de ciudad juarez
+
+
+        desarrollado por:"
+        android:textOn="Sergio Villalobos Aguilar
+
+                    y
+
+        Mario Mendez Aspland " />
+
+</RelativeLayout>

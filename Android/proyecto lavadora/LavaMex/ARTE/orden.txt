@@ -1,0 +1,4 @@
+1 lavado
+2 exprimido
+3 enjuaado
+4 terminado
