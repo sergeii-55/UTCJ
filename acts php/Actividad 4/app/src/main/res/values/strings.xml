@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">B1944</string>
+
+    <string name="boletos_prompt">Selecciona cantidad de boletos</string>
+
+    <string-array name="boletos_array">
+        <item>Boletos</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pelicula_prompt">Elige la Pelicula</string>
+
+    <string-array name="pelicula_arrays">
+        <item>Pelicula</item>
+        <item>Batman</item>
+        <item>Avengers</item>
+        <item>El gigante</item>
+        <item>star wars</item>
+    </string-array>
+</resources>

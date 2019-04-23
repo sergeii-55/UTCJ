@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_59b06a98c855b9c2824741a3c911b7772f4c7f17.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_05b3e146a592fcaffb0bb570fa2dc02eee9794e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_aae35be034722d5d2491b8dd94694908dc03ea2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_fb03172c312c7d3a08126c9b8d7b9ce7abc207cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_069fc7f96bb966e554fb8ca7741fcfd97b489a3b.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_2c394d6a5992abda57113f7dcdf0b2bc181db4ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_a7689be43d683bfb3a3ec36acd89c6a41a5b0379.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_3f8a2f7d553d28b42bda620b97a054ac6bad72c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_e9a3e3fafccdf4c82cebc410ea3dba3243076318.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_45ba02b1f503411bde47e5bd72778f4414a03fa8.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_5dc411f0dddad1c83ebc62afc63f298d30fa5078.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_897b95145d92d6b01011cff70edba405991db64f.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_eba642f5ff47aabd5a6fb96fa11058b6f01a1167.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_02332167750439902771a0cc8c3678c9d1de8db5.jar" />
+    </item>
+    <item
+        jar="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\z\AndroidStudioProjects\Chihuahua\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_44d7b1d882d67ee854e49259d0dcf4cbef0daae1.jar" />
+    </item>
+
+</items>

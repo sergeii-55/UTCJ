@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Universidad Tecnológica de Ciudad Juárez"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#479622"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        android:id="@+id/bIni"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logoutcj"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:text="Creado por: Sergio Villalobos Aguilar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:id="@+id/textView3"
+        android:layout_marginTop="100dp"
+        android:background="#a0ff0000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="App Folleto Becas"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:background="#a0ff0000" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Este beneficio que brinda la UTCJ, tiene el objetivo de estimular el desarrollo académico y social del estudiante, además de contribuir a su formación integral."
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:background="#a0ffea00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BECAS"
+        android:id="@+id/textView5"
+        android:textSize="25dp"
+        android:textColor="#479622"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView2"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+</RelativeLayout>

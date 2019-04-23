@@ -1,0 +1,2 @@
+Printshot de la tabla Datos
+codigo php para consulta

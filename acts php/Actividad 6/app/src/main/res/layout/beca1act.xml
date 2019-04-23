@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_academica"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BECA ACADEMICA"
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:textColor="#075959"
+        android:background="#40ffffff"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/bsig"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        android:id="@+id/bini"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        android:id="@+id/bsig"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/prom"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/bsig" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Para alumnos con un alto rendimiento académico. Según tu promedio, será el descuento a obtener."
+        android:textAlignment="center"
+        android:textColor="#075959"
+        android:background="#40ffffff"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView6"
+        android:id="@+id/textView7" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Podrás aplicar a esta beca en el segundo tetramestre, según el promedio obtenido, será tu descuento."
+        android:textAlignment="center"
+        android:textColor="#075959"
+        android:background="#40ffffff"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/bini"
+        android:layout_alignEnd="@+id/bsig"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

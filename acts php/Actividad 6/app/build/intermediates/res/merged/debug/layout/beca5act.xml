@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b_incluyente">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BECA INCLUYENTE"
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:textColor="#075959"
+        android:background="#aeffffff"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/bsig"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANTERIOR"
+        android:id="@+id/breg"
+        android:layout_alignTop="@+id/bini"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        android:id="@+id/bini"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        android:id="@+id/bsig"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Beca que se otorga a los alumnos que cuenten con alguna discapacidad auditiva, motriz, visual o de lenguaje."
+        android:textAlignment="center"
+        android:textColor="#075959"
+        android:background="#aeffffff"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:id="@+id/textView6"
+        android:layout_above="@+id/bini"
+        android:layout_alignEnd="@+id/bsig"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+***********************manifest*********************************
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.via.z.cheko1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+
+**************************base helper**********************************
+
+package com.via.z.cheko1;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
+
+/**
+ * created by sergeii..... yeah baby!
+ */
+public class BaseHelper extends SQLiteOpenHelper {
+
+    String tabla="CREATE TABLE Personas (Id INTEGER PRIMARY KEY AUTOINCREMENT, Nombre text, Apellido Text, Edad INTEGER)";
+    public BaseHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version){
+        super(context, name, factory, version);
+    }
+
+    @Override
+    public void onCreate(SQLiteDatabase db){
+        db.execSQL(tabla);
+    }
+
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion){
+
+    }
+}
+
+
+*********************************main activity***************************************
+
+package com.via.z.cheko1;
+
+import android.app.Activity;
+import android.content.ContentValues;
+import android.database.sqlite.SQLiteDatabase;
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
+
+
+class MainActivity extends Activity {
+EditText ET_Nombre, ETA_Apellido, ET_Edad;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        ET_Nombre=(EditText) findViewById(R.id.ET_Nombre);
+        ETA_Apellido=(EditText) findViewById(R.id.ET_Apellido);
+        ET_Edad=(EditText) findViewById(R.id.ET_Edad);
+    }
+
+    public void GuardarDatos(View view){
+        String nombre=ET_Nombre.getText().toString();
+        String apellido=ETA_Apellido.getText().toString();
+        int edad= Integer.parseInt(ET_Edad.getText().toString());
+
+        BaseHelper baseHelper = new BaseHelper(this, "DEMODB",null,1);
+        SQLiteDatabase db = baseHelper.getWritableDatabase();
+        if(db != null){
+            ContentValues registronuevo = new ContentValues();
+            registronuevo.put("Nombre", nombre);
+            registronuevo.put("Apellido", apellido);
+            registronuevo.put("Edad", edad);
+            long i = db.insert("Personas",null,registronuevo);
+            if (i>0){
+                Toast.makeText(this,"Registro Insertado", Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        // comentario eliminado por sergeii
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        // comentario eliminado por sergeii
+        // comentario eliminado por sergeii
+        // comentario eliminado por sergeii
+        int id = item.getItemId();
+
+        // comentario eliminado por sergeii
+        if (id == R.id.action_settings){
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+}
+
+
+***********************************activity main***********************************
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:id="@+id/textView"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Nombre"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:text="Apellido"
+        android:id="@+id/textView2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Apellido"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:text="Edad"
+        android:id="@+id/textView3"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ET_Edad"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/button"
+        android:onClick="GuardarDatos"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
